@@ -1,0 +1,19 @@
+{
+  "name": "Jarvis",
+  "description": "Jarvis your Ai assistant",
+  "version": "1.0.0",
+  "manifest_version": 3,
+  "action": {
+    "default_popup": "index.html",
+    "default_title": "Get your own Ai assistant"
+  },
+  "permissions": ["activeTab", "scripting", "storage"],
+  "icons": {
+    "16": "logo192.png",
+    "48": "logo512.png",
+    "128": "logo512.png"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}

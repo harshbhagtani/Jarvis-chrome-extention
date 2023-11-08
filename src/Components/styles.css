@@ -1,0 +1,16 @@
+.formContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+label {
+  font-weight: 500;
+  font-size: 12px;
+}
+.text_1 {
+  font-size: 12px;
+  font-weight: 500;
+  margin: 0;
+}

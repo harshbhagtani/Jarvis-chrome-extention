@@ -1,0 +1,8 @@
+.App {
+  width: 500px;
+  height: auto;
+  padding: 30px;
+}
+body {
+  background-image: linear-gradient(to top, #4601b1, #ffffff);
+}
